@@ -35,11 +35,6 @@ header {
     margin-bottom: 20px;
 }
 
-.sub-menu a {
-    color: white;
-    text-decoration: none;
-}
-
 .sub-menu a:hover {
     opacity: 0.3;
 }
