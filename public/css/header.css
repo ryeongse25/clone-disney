@@ -1,0 +1,45 @@
+header {
+    background-color: #000;
+    padding: 19px 30px;
+    color: white;
+}
+
+.nav-menu {
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.nav-menu span:hover {
+    text-decoration: underline;
+}
+
+.nav-menu > li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+.sub-menu {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.sub-menu li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sub-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-menu a:hover {
+    opacity: 0.3;
+}
+
+.disney_btn {
+    background-color: #1860c9;
+}

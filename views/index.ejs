@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>월트디즈니 공식 홈페이지</title>
+        <meta charset="utf-8">
+        <!-- <link rel="favicon" href=""> -->
+        <%-include('script.ejs') %>
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/header.css">
+    </head>
+    <body>
+        <%-include('header.ejs') %>
+
+        <script>
+            $(".nav-menu > li").on("mouseover", function( obj ){
+                let target = obj.currentTarget;
+                let target_menu = target.querySelector("ul");
+                $(target_menu).removeClass("d-none");
+            });
+
+            $(".nav-menu > li").on("mouseleave", function( obj ){
+                target = obj.currentTarget;
+                let target_menu = target.querySelector("ul");
+                $(target_menu).addClass("d-none");
+            });
+        </script>
+    </body>
+</html>
