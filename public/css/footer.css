@@ -1,0 +1,22 @@
+footer {
+    background-color: #363636;
+    color: #9b9b9b;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+
+footer img {
+    margin: 0 15px;
+}
+
+footer span {
+    font-size: 9px;
+    position: relative;
+    bottom: 6px;
+}
+
+footer ul li a{
+    color: #9b9b9b;
+    text-decoration: none;
+    margin: 0 10px;
+}
