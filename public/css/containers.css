@@ -1,7 +1,9 @@
 .containers > div {
     height: 505px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center center;
+    background-attachment: fixed;
     text-align: center;
 }
 
