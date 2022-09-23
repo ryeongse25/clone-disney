@@ -19,6 +19,20 @@ body {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .bi-list { 
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .xs-screen {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1120px) {
     .bi-list {
         display: none;

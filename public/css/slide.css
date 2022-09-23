@@ -1,16 +1,37 @@
 .slide-menu {
     width: 100%;
+    font-size: 15px;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
-.slide-menu ul {
-    background-color: #000;
+.slide-menu li {
+    margin: 0 20px;
+}
+
+.slide-menu span {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.slide-menu > ul {
+    background-color: rgb(0, 0, 0, 0.5);
     color: white;
-    margin: 0;
-    padding: 0;
     align-items: baseline;
     text-align: center;
+    margin: 0;
+    padding-top: 10px;
 }
 
-.slide-menu ul li {
-    margin: 0 10px;
+.sub {
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+
+.sub li {
+    margin-bottom: 20px;
+}
+
+.sub a:hover {
+    opacity: 0.3;
 }
