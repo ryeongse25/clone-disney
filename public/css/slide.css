@@ -1,0 +1,16 @@
+.slide-menu {
+    width: 100%;
+}
+
+.slide-menu ul {
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+    text-align: center;
+}
+
+.slide-menu ul li {
+    margin: 0 10px;
+}
