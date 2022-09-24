@@ -2,7 +2,8 @@
     <head>
         <title>월트디즈니 공식 홈페이지</title>
         <meta charset="utf-8">
-        <!-- <link rel="favicon" href=""> -->
+        <link rel="favicon" href="/logo/favicon.ico">
+
         <%-include('script.ejs') %>
         <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="/css/common.css">
@@ -32,6 +33,12 @@
             function slideMenu() {
                 $(".slide-menu").toggleClass("d-none");
             }
+
+            $(window).scroll(function(){
+                let divs = document.querySelectorAll(".containers > div");
+                console.log(divs);
+                $().css("background-position", "center center")
+            });
         </script>
     </body>
 </html>
