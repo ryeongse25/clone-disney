@@ -35,9 +35,13 @@
             }
 
             $(window).scroll(function(){
+                let scrollLocation = document.scrollingElement.scrollTop;
                 let divs = document.querySelectorAll(".containers > div");
-                console.log(divs);
-                $().css("background-position", "center center")
+                console.log(scrollLocation + "px");
+                // for (let i=0; i<2; i++) {
+                    $(divs[0]).css("background-position-y", scrollLocation * (-0.2) + "px");
+                    $(divs[1]).css("background-position-y", scrollLocation * (-0.2) + "px");
+                // }
             });
         </script>
     </body>
