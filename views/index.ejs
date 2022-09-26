@@ -2,7 +2,7 @@
     <head>
         <title>월트디즈니 공식 홈페이지</title>
         <meta charset="utf-8">
-        <link rel="favicon" href="/logo/favicon.ico">
+        <link rel="icon" href="/logo/favicon.ico">
 
         <%-include('script.ejs') %>
         <link rel="stylesheet" href="/css/index.css">
@@ -39,8 +39,8 @@
                 let divs = document.querySelectorAll(".containers > div");
                 console.log(scrollLocation + "px");
                 // for (let i=0; i<2; i++) {
-                    $(divs[0]).css("background-position-y", scrollLocation * (-0.2) + "px");
-                    $(divs[1]).css("background-position-y", scrollLocation * (-0.2) + "px");
+                    // $(divs[0]).css("background-position-y", scrollLocation * (-0.2) + "px");
+                    // $(divs[1]).css("background-position-y", scrollLocation * (-0.2) + "px");
                 // }
             });
         </script>
